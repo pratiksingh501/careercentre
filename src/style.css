@@ -1,0 +1,83 @@
+.jobpage{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homebtn{
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #49b685, #358467);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 64px;
+  line-height: 44px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.homebtn {
+  background: #1d7263;
+}
+
+.about{
+  background: #3eb0c1;
+
+}
+
+.courses_page{
+    width: 85%;
+    /* background-color: #358467; */
+    margin: 0 auto;
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+    background-image: url('https://images.unsplash.com/photo-1531496730074-83b638c0a7ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    margin: 50px 0;
+}
+
+
+.banner2{
+    width: 100%;
+    height: 300px;
+    background-image: url('https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    margin: 50px 0;
+   
+}
+
+.line{
+    background-color: #dde8e79c;
+    height: 2px;
+    box-shadow: 0px 7px 8px 0px rgba(223, 223, 223, 0.537);
+}

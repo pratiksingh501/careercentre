@@ -1,0 +1,91 @@
+:root {
+    --yellow: linear-gradient(#fff);
+    --orange: #fca61f;
+    --black: #242d49;
+    --gray: #788097;
+    --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
+    --pink: #2496a3;
+    --glass: rgba(255, 255, 255, 0.54);
+    --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --activeItem: #cfcfcf54;
+  }
+
+  @font-face {
+    font-family: "Gilroy-Light";   /*Can be any text*/
+    src: local("Gilroy-Light"),
+      url("./fonts/Gilroy-Light.ttf");
+  }
+  @font-face {
+    font-family: "Gilroy-Bold";   /*Can be any text*/
+    src: local("Gilroy-Bold"),
+      url("./fonts/Gilroy-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Gilroy-Medium";   /*Can be any text*/
+    src: local("Gilroy-Medium"),
+      url("./fonts/Gilroy-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: "Gilroy-SemiBold";   /*Can be any text*/
+    src: local("Gilroy-SemiBold"),
+      url("./fonts/Gilroy-SemiBold.ttf");
+  }
+
+  @font-face {
+    font-family: "Gilroy-Regular";   /*Can be any text*/
+    src: local("Gilroy-Regular"),
+      url("./fonts/Gilroy-Regular.ttf");
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular';
+  }
+  .App {
+    /* padding: 0.5rem 3.5rem; */
+    color: var(--black);
+    background:#fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .AppGlass {
+    display: grid;
+    height: 97%;
+    width: 97%;
+    background: var(--glass);
+    gap: 30px;
+    grid-template-columns: 11rem auto 20rem;
+    overflow: hidden;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .AppGlass{
+      grid-template-columns: 10% 50% auto;
+      overflow-y: scroll;
+    } 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .AppGlass{
+      grid-template-columns: 1fr;
+    } 
+  }
+
+  .vector{
+    width: 100%;
+    height: 150px;
+    /* background-color: #BB67FF; */
+    background-image: url('./assests/images/Vector.png');
+    background-size: 50%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+  }
