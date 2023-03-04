@@ -2,7 +2,6 @@ import React from "react";
 import "./about.css";
 import { Container, Row, Col } from "reactstrap";
 import aboutImg from "../../assests/images/AboutImg.svg";
-import CountUp from "react-countup";
 import "./about.css";
 import "../../style.css"
 

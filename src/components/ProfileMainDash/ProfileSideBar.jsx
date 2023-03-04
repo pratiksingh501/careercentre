@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import { UilSignOutAlt } from "@iconscout/react-unicons";
 import { ProfileSidebarData } from "../../Data/Data"
 import { UilBars } from "@iconscout/react-unicons";
 import { NavLink } from "react-router-dom";

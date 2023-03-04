@@ -1,22 +1,16 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
 import "./header.css";
-import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
-// import Container from '@mui/material/Container';
 import Avatar from "@mui/material/Avatar";
-import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import { NavLink } from "react-router-dom";
 
 import Ellipse from "../../assests/images/Ellipse.png";
-// import AdbIcon from '@mui/icons-material/Adb';
 
 const coursesArray = [
   {
@@ -56,25 +50,15 @@ const Header = () => {
   const menuRef = useRef();
 
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElNav2, setAnchorElNav2] = React.useState(null);
-
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [anchorElUser2, setAnchorElUser2] = React.useState(null);
 
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
   const handleOpenUserMenu = (event) => {
     setAnchorElUser(event.currentTarget);
   };
 
   const handleOpenUserMenu2 = (event) => {
     setAnchorElUser2(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
   };
 
   const handleCloseUserMenu = () => {
@@ -85,11 +69,7 @@ const Header = () => {
     setAnchorElUser2(null);
   };
 
-  let activeStyle = {
-    textDecoration: "underline",
-  };
 
-  let activeClassName = "underline";
 
   return (
     <header className="header">
@@ -108,9 +88,6 @@ const Header = () => {
                 <span> 
                   <NavLink
                     to="/"
-                    // style={({ isActive }) =>
-                    //   isActive ? activeStyle : undefined
-                    // }
                     style={{fontFamily:"Gilroy-Medium", backgroundColor:"#fff"}}
                   >
                    Home

@@ -1,10 +1,9 @@
 import React from "react";
-import Vector from "../../assests/images/Vector.png";
 import '../../style.css';
 
 
 const FreeCourseCard = (props) => {
-  const { imgUrl, title, students,desc} = props.item;
+  const {  title,desc} = props.item;
 
   return (
     <div className="single__free__course">
