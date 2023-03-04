@@ -133,6 +133,15 @@ const Header = () => {
                    
                   </NavLink>
                   </span>
+                  <span>
+                  <NavLink
+                    to="/assessments"
+                    style={{marginLeft:"20px", fontFamily:"Gilroy-Medium", textDecoration:"none", backgroundColor:"#fff"}}
+                  >
+                     Assessments
+                   
+                  </NavLink>
+                  </span>
                 </li>
               </ul>
             </div>

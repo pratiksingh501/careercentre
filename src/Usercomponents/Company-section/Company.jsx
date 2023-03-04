@@ -7,7 +7,7 @@ const Company = () => {
     <section>
       <Container>
         <Row>
-          <h1 style={{fontFamily:"Gilroy-Bold", textAlign:"center", marginBottom:"100px"}}>Top Brands our students working with.</h1>      
+          <h1 style={{fontFamily:"Gilroy-Bold", textAlign:"center", marginBottom:"140px"}}>Top Brands our students working with.</h1>      
         </Row>
         <Marquee speed={90} pauseOnHover={true}>
         <Row>
