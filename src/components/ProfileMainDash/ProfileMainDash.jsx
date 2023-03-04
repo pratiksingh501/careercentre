@@ -3,7 +3,7 @@ import "./ProfileMainDash.css";
 // import ProfileSideBar from "./ProfileSideBar"
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
+// import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import TabPanel from "./TabPanel";
 import Grid from "@mui/material/Grid";

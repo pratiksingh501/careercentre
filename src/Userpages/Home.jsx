@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import HeroSection from "../Usercomponents/Hero-Section/HeroSection";
 import CompanySection from "../Usercomponents/Company-section/Company";
 
-import AboutUs from "../Usercomponents/About-us/AboutUs";
+// import AboutUs from "../Usercomponents/About-us/AboutUs";
 import Features from "../Usercomponents/Feature-section/Features";
 import FreeCourse from "../Usercomponents/Free-course-section/FreeCourse";
 
